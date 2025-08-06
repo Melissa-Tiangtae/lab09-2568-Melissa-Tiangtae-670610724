@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function HelloMyNamePage() {
 
   const [name,setName] = useState("");
-  const[result,setResult] = useState("");
+  const[result,setResult] = useState("Please insert your name");
   const [isGreetOk, setGreetOk] = useState(false)
   const greetBtnOnClick = () => {
 
